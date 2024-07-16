@@ -7,6 +7,11 @@ namespace CRUD.Project.Controllers
     public class HomeController : ControllerBase
     {
 
+        [HttpGet]
+        public ActionResult GetUser()
+        {
+            return Ok("ควย");
 
+        }
     }
 }
